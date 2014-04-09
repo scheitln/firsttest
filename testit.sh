@@ -1,5 +1,5 @@
 # This is a comment
-# this goes a to e
+#This one counts a to e, but I wish it went to j
 #another comment
 
 for file in `ls my10{a..e}*.txt`
