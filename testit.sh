@@ -2,8 +2,8 @@
 
 #another comment
 
-for file in `ls n*`
+for file in `ls my10{a..e}*.txt`
 do
-  cat sample2.txt  >> $file
+  echo "added line" >> $file
 done
 
